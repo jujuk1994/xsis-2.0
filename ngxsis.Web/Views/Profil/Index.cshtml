@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+
+<div id="IdListProfil">
+
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        debugger;
+        $.ajax({
+            url: '/Profil/ListProfile',
+            method: 'Get',
+            success: function (mdl) {
+                $('#IdListProfil').html(mdl);
+            },
+        });
+    });
+</script>

@@ -1,0 +1,440 @@
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+E:\Batch205\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+F:\CECE\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+D:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+D:\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+D:\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+E:\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+E:\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+E:\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+E:\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll.config
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.Web.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.Web.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\EntityFramework.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.Models.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Helpers.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Mvc.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Razor.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Webpages.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.Models.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.Repositories.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\ngxsis.ViewModel.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\EntityFramework.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\EntityFramework.SqlServer.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Razor.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Webpages.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Deployment.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Webpages.Razor.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Helpers.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\System.Web.Mvc.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.csprojResolveAssemblyReference.cache
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\obj\Debug\ngxsis.Web.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\itextsharp.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Web\bin\itextsharp.xml

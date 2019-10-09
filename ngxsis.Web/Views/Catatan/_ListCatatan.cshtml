@@ -1,0 +1,168 @@
+﻿<h1>
+    <font color="#000080">
+        <b>Catatan</b>
+    </font>
+    <button type="button" class="btn btn-xs" title="Create New" id="idButtonTambahCatatan" style="background-color:black; color:white; font-size:9px; border-radius:100%;">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+
+    </button>
+</h1>
+<div class="table table-responsive">
+    <table class="table table-striped" style="border-bottom: 2px solid #000080; color: #000080; ">
+        <thead style="border-bottom: 5px solid #000080; border-top :5px solid #000080;">
+            <tr>
+                <th>
+                    Judul Catatan
+                </th>
+                <th>
+                    Jenis Catatan
+                </th>
+                <th>
+                    Di buat oleh
+                </th>
+                <th>
+                    #
+                </th>
+            </tr>
+
+        </thead>
+        <tbody id="idBodyTableListCatatan"></tbody>
+
+    </table>
+</div>
+<script>
+
+    $(document).ready(function () {
+        // debugger;
+        $.ajax({
+            url: '/Catatan/GetAll',
+            method: 'Get',
+            success: function (mdl) {
+                var jahit;
+                $.each(mdl, function (index, data) {
+                    // debugger;
+                    jahit += '<tr>' +
+                             '<td>' + data.title + '</td>' +
+                             '<td>' + data.type_notes + '</td>' +
+                             '<td>' + data.created_by + '</td>' +
+                             '<td>' +
+                             '<div class="dropdown navbar-nav navbar-right">' +
+                             '<button class="img-rounded btn btn-primary" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#000080">' +
+                             'More' +
+                             '<span class="caret"></span>' +
+                             '</button>' +
+                             '<ul class="dropdown-menu">' +
+                             '<li><a  class="classEditCatatan" style="padding-left:20px;" editCatatan = ' + data.id + '>Ubah</a></li>' +
+                             '<li><a class="classHapusCatatan" style="padding-left:20px;" deleteCatatan=' + data.id + '>Hapus</a></li>' +
+                             '</ul>' +
+                             '</div>' +
+                             '</td>' +
+                             '</tr>';
+
+
+                });
+                //debugger;
+                $('#idBodyTableListCatatan').html(jahit);
+                //Menu edit
+                $('.classEditCatatan').click(function () {
+
+                    var vDataCatatan = ($(this).attr('editCatatan'));
+
+                    $.each(mdl, function (index, data) {
+                        if (data.id == vDataCatatan) {
+                            //debugger;
+                            $.ajax({
+                                url: '/Catatan/EditCatatan',
+                                method: 'Get',
+                                success: function (edit) {
+                                    debugger;
+
+                                    var orderDate = new Date(parseInt(data.created_on.replace("/Date(", "").replace(")/", ""), 10));
+                                    var day = ("0" + orderDate.getDate()).slice(-2);
+                                    var month = ("0" + orderDate.getMonth()).slice(-2);
+                                    var year = (orderDate.getFullYear());
+                                    var getTheDay = (year) + "-" + (month) + "-" + (day);
+
+                                    $(".modal-create .modal-title").html("Edit Catatan");
+                                    $(".modal-create .modal-body").html(edit);
+
+                                    //inject data ke dalam elemen edit
+                                    $('#ID').val(data.id);
+                                    //debugger;
+                                    $('#idEditJudul').val(data.title);
+                                    $('#idEditJenis').val(data.note_type_id);
+                                    //debugger;
+                                    $('#idEditNotes').val(data.notes);
+                                    $('#idEditCreatedBy').val(data.biodata_id);
+                                    $('#idEditCreatedOn').val(getTheDay);
+                                    $('#idEditBiodataId').val(data.biodata_id);
+                                    $('#idIsDelete').val("False");
+                                    //Menampilkan modal edit
+                                }
+                            });
+                            $(".modal-pelamar").modal("hide");
+                            $(".modal-create").modal("show");
+                        };
+                    });
+                });
+                //menu delete
+                $('.classHapusCatatan').click(function () {
+                    var vDataCatatan = ($(this).attr('deleteCatatan'));
+
+                    $.each(mdl, function (index, data) {
+                        if (data.id == vDataCatatan) {
+                            //debugger;
+                            $.ajax({
+                                url: '/Catatan/Delete',
+                                method: 'Get',
+                                success: function (hapus) {
+                                    debugger;
+
+                                    var orderDate = new Date(parseInt(data.created_on.replace("/Date(", "").replace(")/", ""), 10));
+                                    var day = ("0" + orderDate.getDate()).slice(-2);
+                                    var month = ("0" + orderDate.getMonth()).slice(-2);
+                                    var year = (orderDate.getFullYear());
+                                    var getTheDay = (year) + "-" + (month) + "-" + (day);
+
+                                    $(".modal-delete .modal-title").html("Hapus Catatan");
+                                    $(".modal-delete .modal-body").html(hapus);
+
+                                    //inject data ke dalam elemen edit
+                                    $('#ID').val(data.id);
+                                    debugger;
+                                    $('#namaCatatan').html(data.title)
+                                    //$('#idEditJudul').val(data.title);
+                                    $('#idEditJenis').val(data.note_type_id);
+                                    $('#idEditNotes').val(data.type_notes);
+                                    $('#idEditCreatedBy').val(data.biodata_id);
+                                    $('#idEditCreatedOn').val(getTheDay);
+                                    $('#idEditBiodataId').val(data.biodata_id);
+                                    $('#idIsDelete').val("True");
+                                    //Menampilkan modal edit
+                                }
+                            });
+                            $(".modal-pelamar").modal("hide");
+                            $(".modal-delete").modal("show");
+                        };
+                    });
+                });
+            }
+
+        });
+
+        $('#idButtonTambahCatatan').click(function () {
+            debugger;
+            $.ajax({
+                url: '/Catatan/TambahCatatan',
+                method: 'Get',
+                success: function (mdl) {
+                    $(".modal-create .modal-title").html("Tambah Catatan");
+                    $(".modal-create .modal-body").html(mdl);
+                    $(".modal-pelamar").modal("hide");
+                    $(".modal-create").modal("show");
+                }
+            });
+        });
+    });
+</script>
+

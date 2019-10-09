@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div id="idListPelatihan">
+
+</div>
+<!--Modal AddPelatihan-->
+<div class="modal fade modal-create" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background: darkblue">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" style="background: darkblue; color: white">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--Modal EditPelatihan-->
+<div id="IdMdlEditPelatihan" class="modal fade " tabindex="-1" role="dialog" style="border: 2px solid #000080; color: #000080;  ">
+    <div class="modal-dialog" role="document" style="width: 900px;">
+        <div class=" modal-content modal-lg">
+            <div class="modal-header" style="background-color: #000080">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span style="color:white" class="glyphicon glyphicon-remove"></span></button>
+                <h4 class="modal-title" style="color: white">Ubah Pelatihan</h4>
+            </div>
+
+            <div id="IdMdlBodyEditPelatihan" class="modal-body">
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--Modal DeletePelatihan-->
+<div id="IdMdlDeletePelatihan" class="modal fade " tabindex="-1" role="dialog" style="border: 2px solid #8B0000; color: #8B0000;  ">
+    <div class="modal-dialog" role="document" style="width: 600px;">
+        <div class=" modal-content modal-lg">
+            <div class="modal-header" style="background-color: #8B0000">
+                <h4 class="modal-title" style="color: white">Hapus Pelatihan ?</h4>
+            </div>
+
+            <div id="IdMdlBodyDeletePelatihan" class="modal-body">
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script>
+    $(document).ready(function () {
+        //debugger;
+        $.ajax({
+            url: '/Pelatihan/List',
+            method: 'Get',
+            success: function (mdl) {
+                //debugger;
+                $('#idListPelatihan').html(mdl);
+            }
+        })
+    });
+</script>
+
+<!-- /.modal-content DELETE -->
+<div class="modal fade modal-delete" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

@@ -1,0 +1,59 @@
+﻿<table class="table table-striped" id="my-table"></table>
+
+<script>
+    $(document).ready(function () {
+        //join ke table skill_level dan join ke table biodata
+        debugger;
+        $.ajax({
+            url: 'PenjadwalanUndangan/List',
+            type: 'Get',
+            success: function (mdl) {
+                var jahit;
+                $.each(mdl, function (index, data) {
+                    jahit += '<tbody style="margin-top:20px;">'+
+                    @*@foreach (var item in Model)*@
+                    '{'
+                    '<tr style="font-size:small;">'+
+                    '<td class="text-left" title=>'+
+                    '<div style="margin-right:30px;">'+
+                    '</div>'+
+                    '</td>'+
+                    '<td class="text-left">'+
+                    '<div style="margin-right:30px;">'+
+                    '</div>'+
+                    '</td>'+
+                    '<td class="text-left">'+
+                    '<div>'+
+                    '</div>'+
+                    '</td>'+
+                    '<td class="text-left">'+
+                    '<div style="margin-right:30px;">'+
+                    '</div>'+
+                    '</td>'+
+                    '<td>'+
+                    '<div class="btn-group btn-group-sm">'+
+                    '<button href="#" type="button" class="btn btn-tampilkan btn-warna" data-container="" title="Tampilkan" id="btn-tampilkan">'+
+                    '<span class="glyphicon glyphicon-search" aria-hidden="true"></span>'+
+                    '</button>'+
+                    '<button type="button" class="btn btn-edit btn-warna" data-container="" title="Edit">'+
+                    '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>'+
+                    '</button>'+
+                    '<button type="button" class="btn btn-delete btn-warna" data-container="" title="Delete">'+
+                    '<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>'+
+                    '</button>'+
+                    '</div>'+
+                    '</td>'+
+                    '</tr>'+
+                    '}'+
+                    '</tbody>'+
+                    '<div class="row" style="text-align:right;margin-bottom:15px;margin-right:5px;margin-top:-10px;">'+
+                    '<button type="button" class="btn btn-primary btn-sm btn-pill btn-prev" onclick="min()"><b>&#8592; Previous</b></button>'+
+                    '<button type="button" class="btn btn-primary btn-sm btn-pill btn-next" onclick="plus()"><b>Next &#8594;</b></button>'+
+                    '</div>'
+                });
+                //untuk button edit&delete
+            }
+        });
+        //untuk button add
+    });
+</script>

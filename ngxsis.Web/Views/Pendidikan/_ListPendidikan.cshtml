@@ -1,0 +1,182 @@
+﻿<link rel="stylesheet" href="~/content/sertifikasi.css" />
+<h1>
+    <font color="#000080">
+        <b>Pendidikan</b>
+    </font>
+    <button type="button" class="btn btn-xs" title="Create New" id="btnAddPendidikan" style="background-color:black; color:white; font-size:9px; border-radius:100%;">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    </button>
+</h1>
+<div class="table table-responsive">
+    <table class="table table-striped" style="border-bottom: 2px solid #000080; color: #000080; ">
+        <thead style="border-bottom: 5px solid #000080; border-top :5px solid #000080;">
+            <tr>
+                <th>
+                    SEKOLAH/INSTANSI
+                </th>
+                <th>
+                    JENJANG
+                </th>
+                <th>
+                    PERIODE
+                </th>
+                <th>
+                    JURUSAN
+                </th>
+                <th>
+                    IPK
+                </th>
+                <th>
+                    #
+                </th>
+            </tr>
+
+        </thead>
+        <tbody id="idBodyTableListPendidikan"></tbody>
+
+    </table>
+</div>
+<script>
+    $(document).ready(function () {
+        //join ke table skill_level dan join ke table biodata
+        debugger;
+        $.ajax({
+            url: 'Pendidikan/GetAll',
+            type: 'Get',
+            success: function (mdl) {
+                var jahit;
+                $.each(mdl, function (index, data) {
+                    jahit += '<tr>' +
+                        '<td>' + data.school_name + '</td>' +
+						'<td>' + data.educationName + '</td>' +
+						'<td>' + data.entry_year + '  s.d  ' + data.graduation_year + '</td>' +
+                        '<td>'+data.major+'</td>' +
+						'<td>'+data.gpa+'</td>' +
+              '<td>'+
+                  '<div class="dropdown navbar-nav navbar-right">'+
+                      '<button class="img-rounded btn btn-primary" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#000080">' +
+                    'More'+
+                    '<span class="caret"></span>'+
+                    '</button>'+
+                    '<ul class="dropdown-menu">'+
+                    '<li  class="classEditPendidikan" style="padding-left:20px;" dataPendidikan = '+ data.id +'>Ubah</li>' +
+                    '<li class="classHapusPendidikan" style="padding-left:20px;" dataPendidikan=' + data.id + '>Hapus</li>' +
+                    '</ul>'+
+                      '</div>'+
+                '</td>'+
+           '</tr>';
+                });
+
+                $('#idBodyTableListPendidikan').html(jahit);
+                //debugger;
+
+                //BtnEdit OnKlik
+                $('.classEditPendidikan').click(function () {
+                    var vDataPendidikan = $(this).attr('dataPendidikan');
+                    $.each(mdl, function (index, data) {
+                        if (data.id==vDataPendidikan) {
+                            $.ajax({
+                                url: '/Pendidikan/EditPendidikan',
+                                method: 'Get',
+                                success: function (mdl2) {
+                                    //debugger;
+                                    $(".modal-create .modal-title").html("Edit Pendidikan");
+                                    $(".modal-create .modal-body").html(mdl2);
+                                    $('#idEditNamaPendidikan').val(data.school_name);
+                                    $('#idEditKotaPendidikan').val(data.city);
+                                    $('#idEditNegaraPendidikan').val(data.country);
+                                    $('#idEditJenjangPendidikan').val(data.education_level_id);
+                                    $('#yearBtnEntryPendidikan').val(data.entry_year);
+                                    $('#yearBtnGradPendidikan').val(data.graduation_year);
+                                    $('#idMajor').val(data.major);
+                                    $('#idGpa').val(data.gpa);
+                                    $('#idDatanya').val(data.id);
+                                    var x = vDataPendidikan.school_name;
+                                    //debugger;
+                                }
+                            });
+                        }
+                    })
+
+                    $(".modal-pelamar").modal("hide");
+                    $(".modal-create").modal("show");
+                    //debugger;
+                });
+
+                //BtnHapus OnKlik
+                $('.classHapusPendidikan').click(function () {
+                    var vDataPendidikan = $(this).attr('dataPendidikan');
+                    $.each(mdl, function (index, data) {
+                        if (data.id == vDataPendidikan) {
+                            $.ajax({
+                                url: '/Pendidikan/DeletePendidikan',
+                                method: 'Get',
+                                success: function (showmodal) {
+                                    //debugger;
+                                    $(".modal-delete .modal-title").html("Hapus Pendidikan");
+                                    $(".modal-delete .modal-body").html(showmodal);
+                                    $('#idEditDelPendidikan').val(data.school_name);
+                                    $('#idDelJenjangPendidikan').val();
+                                    $('#idDelTahunMasuk').val(data.entry_year);
+                                    $('#idDelTahunLulus').val(data.graduation_year);
+                                    $('#idDelJurusan').val(data.major);
+                                    $('#idDelGpa').val(data.gpa);
+                                    $('#idDelDatanya').val(data.id);
+                                    var x = vDataPendidikan.school_name;
+                                    //debugger;
+                                }
+                            });
+                            
+                        }
+                    })
+                    $(".modal-pelamar").modal("hide");
+                    $(".modal-delete").modal("show");
+                    //debugger;
+                })
+            }
+        });
+
+
+        //$('#btnAddPendidikan').click(function () {
+        //    //debugger;
+        //    $.ajax({
+        //        url: '/Pendidikan/AddPendidikan',
+        //        method: 'Get',
+        //        success: function (mdl) {
+        //            $('#IdMdlBodyPendidikan').html(mdl);
+        //        }
+        //    });
+        //    $('#IdMdlPendidikan').modal('show');
+        //});
+        $('#btnAddPendidikan').click(function () {
+            $.ajax({
+                url: '/Pendidikan/AddPendidikan',
+                type: 'Get',
+                success: function (result) {
+                    $(".modal-create .modal-title").html("Tambah Pendidikan");
+                    $(".modal-create .modal-body").html(result);
+                    $(".modal-pelamar").modal("hide");
+                    $(".modal-create").modal("show");
+                }
+            });
+
+        });
+
+        $('.classHapusPendidikan').click(function () {
+            //debugger;
+            $.ajax({
+                url: '/Pendidikan/DeletePendidikan',
+                method: 'Get',
+                success: function (mdl2) {
+                    //debugger;
+                    $('#IdMdlBodyDeletePendidikan').html(mdl2);
+                    //debugger;
+                }
+            });
+
+            $('#IdMdlDeletePendidikan').modal('show');
+            //debugger;
+        });
+
+    });
+</script>

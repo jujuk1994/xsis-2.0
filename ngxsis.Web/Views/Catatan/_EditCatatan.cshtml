@@ -1,0 +1,80 @@
+﻿<form id="idFormEditCatatan">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id="ID" name="id" hidden />
+                <input type="text" id="idEditCreatedBy" name="created_by" hidden />
+                <input type="text" id="idEditCreatedOn" name="created_on" hidden />
+                <input type="text" id="idEditBiodataId" name="biodata_id" hidden />
+                <input type="text" id="idIsDelete" name="is_delete" hidden />
+                Judul Catatan*
+                <input required type="text" id="idEditJudul" class="form-control" name="title" value="" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;" /><br />
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                Jenis Catatan
+                <select class="form-control" name="note_type_id" required id="idEditJenis" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;">
+
+                    <option value="1">Interview User</option>
+                    <option value="2">Interview HRD</option>
+                    <option value="3">Interview RO</option>
+                    <option value="5">Interview TRO</option>
+                </select>
+
+            </div>
+        </div>
+        <textarea id="idEditNotes" name="notes" style="border: 2px solid #000080; color: #000080; border-radius:7px; width: 100%; max-width: 100%; height:80px; padding-left:10px;"></textarea>
+        <br />
+        <div class="row">
+            <div class="col-md-offset-8">
+                <div class="btn-group">
+                    <br /><button type="button" class="btn img-rounded btn-batal" data-dismiss="modal" style="width:112px; height:45px; color:white; background-color:#FF8C00;">Batal</button>
+                    <button id="idButtonSimpanEdit" type="button" name="" value="Simpan" class="btn img-rounded " style="width:112px; height:45px; color:white; background-color:#000080;">Simpan</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</form>
+<script>
+    $(document).ready(function () {
+        $('#idButtonSimpanEdit').click(function () {
+            debugger;
+            vDataCatatan = $('#idFormEditCatatan').serialize()
+            $.ajax({
+                url: '/Catatan/SaveEditCatatan',
+                data: vDataCatatan,
+                method: 'Post',
+                success: function (mdl) {
+                    //debugger;
+                    if (mdl.status == "berhasil") {
+                        alert("data berhasil di ubah");
+                        $(".modal-create").modal("hide");
+                        $(".modal-pelamar").modal("show");
+                    }
+                    else {
+                        alert("data gagal");
+                        $(".modal-create").modal("hide");
+                        $(".modal-pelamar").modal("show");
+                    }
+                }
+            })
+        });
+        $(".btn-batal").click(function () {
+            $(".modal-create").modal("hide");
+            $(".modal-pelamar").modal("show");
+        });
+
+        $(".close").click(function () {
+            $(".modal-create").modal("hide");
+            $(".modal-pelamar").modal("show");
+        });
+    });
+
+
+</script>
+

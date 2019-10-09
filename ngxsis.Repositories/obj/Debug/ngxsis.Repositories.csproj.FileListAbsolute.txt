@@ -1,0 +1,186 @@
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+F:\CECE\miniProject\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+D:\MiniProject\mine\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+E:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+E:\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+E:\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+D:\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+D:\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+F:\MPFIX21Aug\Project_Fix_21Aug\Project_Fix\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+D:\Project_Fix\ngxsis\ngxsiseka3\ngxsiseka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll.config
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Repositories.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.Models.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\ngxsis.ViewModel.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.csprojResolveAssemblyReference.cache
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.Repositories\obj\Debug\ngxsis.Repositories.pdb

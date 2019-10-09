@@ -1,0 +1,225 @@
+﻿<form id="idFormListBiodata">
+    <h2>
+        <font color="#000080">
+            <b>Biodata</b>
+            <button type="button" class="btn btn-link" title="Create New" id="IdButtonEdit">
+                <i class="fa fa-pencil-square-o" aria-hidden="true" style="font-size:25px"></i>
+            </button>
+        </font>
+    </h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped" style="border-bottom: 2px solid #000080; color: #000080; ">
+            <thead style="border-bottom: 5px solid #000080; border-top :5px solid #000080;">
+
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td><label id="idNama" name="fullname"></label></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Nama Panggilan</td>
+                    <td><label id="idNickName">:</label></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Kontak</td>
+                    <td><label type="text" id="idEmail"></label> / <label type="text" id="idKontak"></label></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Tempat Tanggal Lahir</td>
+                    <td><label id="idTempatLahir"></label> , <label id="idTanggalLahir" /></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Jenis Kelamin, Tinggi (Cm), Berat (Kg)</td>
+                    <td><label id="idJenisKelamin"></label> , <label id="idTinggi"></label> , <label id="idBerat"></label> </td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Agama</td>
+                    <td><label id="idReligion"></label></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Kewarganegaraan, Suku Bangsa</td>
+                    <td><label id="idKewarganegaraan"></label> , <label id="idSukuBangsa"></label></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Kegemaran/Hobi</td>
+                    <td><label id="idHobby"></label></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Jenis & Nomor Identitas</td>
+                    <td><label id="idJenisIdentitas"></label> / <label id="idNoIdentitas"></label></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #000080; border-top :2px solid #000080;">
+                    <td>Status & Tahun Pernikahan</td>
+                    <td><label id="idStatusPernikahan"></label> / <label id="idTahunPernikahan"></label></td>
+                </tr>
+        </table>
+    </div>
+</form>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: '/Biodata/GetAll',
+            method: 'Get',
+            success: function (mdl) {
+                $.each(mdl, function (index, data) {
+
+                    //convert tanggal sql ke tanggal html,
+
+                    var orderDate = new Date(parseInt(data.dob.replace("/Date(", "").replace(")/", ""), 10));
+                    var day = ("0" + orderDate.getDate()).slice(-2);
+                    var month = ("0" + orderDate.getMonth()).slice(-2);
+                    var year = (orderDate.getFullYear());
+                    var getTheDay = (day) + "-" + (month) + "-" + (year);
+                    //----------------------------------------------------//
+                    var gender;
+                    if (data.gender == true) {
+                        gender = "Perempuan"
+                    }
+                    else {
+                        gender = "Laki-Laki"
+                    }
+
+                    $('#idNama').html(data.fullname);
+                    $('#idNickName').html(data.nick_name);
+                    $('#idKontak').html(data.phone_number1);
+                    $('#idEmail').html(data.email);
+                    $('#idTempatLahir').html(data.pob);
+                    $('#idTanggalLahir').html(getTheDay);
+                    $('#idJenisKelamin').html(gender);
+                    if (data.high == null)
+                    {
+                        $('#idTinggi').html(" - ");
+                    }
+                    else
+                    {
+                        $('#idTinggi').html(data.high + " Cm");
+                    }
+                    if (data.weight == null)
+                    {
+                        $('#idBerat').html(" - ");
+                    }
+                    else
+                    {
+                        $('#idBerat').html(data.weight + " Kg");
+                    }
+                    $('#idReligion').html(data.religion_name);
+                    $('#idKewarganegaraan').html(data.nationality);
+                    $('#idSukuBangsa').html(data.ethnic);
+                    if (data.hobby == null)
+                    {
+                        $('#idHobby').html("-");
+                    }
+                    else
+                    {
+                        $('#idHobby').html(data.hobby);
+                    }
+
+                    $('#idNoIdentitas').html(data.identity_no);
+                    $('#idJenisIdentitas').html(data.identity_name);
+                    $('#idStatusPernikahan').html(data.mariage_status);
+                    $('#idTahunPernikahan').html(data.marriage_year);
+
+                });
+
+                //==============Klik Button Edit=============================//
+                $('#IdButtonEdit').click(function () {
+                    $.ajax({
+                        url: './Biodata/EditBiodata',
+                        method: 'Get',
+                        success: function (mdl2) {
+                            debugger;
+                            $.each(mdl, function (index, data) {
+
+                                var orderDate = new Date(parseInt(data.dob.replace("/Date(", "").replace(")/", ""), 10));
+                                var day = ("0" + orderDate.getDate()).slice(-2);
+                                var month = ("0" + orderDate.getMonth()).slice(-2);
+                                var year = (orderDate.getFullYear());
+                                var getTheDay = (year) + "-" + (month) + "-" + (day);
+                                //-----------------------------------------------------------//
+                                var getYear = new Date(data.marriage_year);
+                                var getRealYear = (getYear.getFullYear());
+
+                                var gender;
+                                if (data.gender == true) {
+                                    gender = "0"
+                                }
+                                else {
+                                    gender = "1"
+                                }
+                                //=====================Inject ke Mobal==========================//
+                                $(".modal-create .modal-title").html("Edit Biodata");
+                                $(".modal-create .modal-body").html(mdl2);
+
+                                //=============Data di inject ke element di editBiodata=========//
+                                $('#idEditNama').val(data.fullname);
+                                $('#idEditTempatLahir').val(data.pob);
+                                $('#idEditTanggalLahir').val(getTheDay);
+                                $('#idEditBerat').val(data.weight);
+                                $('#idEditHobbi').val(data.hobby);
+                                $('#idEditNickName').val(data.nick_name);
+                                $('#idEditKewarganegaraan').val(data.nationality);
+                                $('#idEditSukuBangsa').val(data.ethnic);
+                                $('#idEditTinggi').val(data.high);
+                                $('#idEditEmail').val(data.email);
+                                $('#idEditAgama').val(data.religion_id);
+                                $('#idEditNomorHp2').val(data.phone_number2);
+                                $('#idJenisStatusPernikahan').val(data.marital_status_id);
+                                $('#idEditNomorIdentitas').val(data.identity_no);
+                                $('#idEditJenisIdentitas').val(data.identity_type_id);
+                                $('#idEditTelponOrangTua').val(data.parent_phone_number);
+                                $('#idEditChildSequence').val(data.child_sequence);
+                                $('#idEditHowManyBrothers').val(data.how_many_brothers);
+                                $('#idEditAlamat1').val(data.address1);
+                                $('#idEditAlamat2').val(data.address2);
+                                $('#idEditKodePos1').val(data.postal_code1);
+                                $('#idEditRt1').val(data.rt1);
+                                $('#idEditRw1').val(data.rw1);
+                                $('#idEditKelurahan1').val(data.kelurahan1);
+                                $('#idEditKecamatan1').val(data.kecamatan1);
+                                $('#idEditKota1').val(data.region1);
+                                $('#idEditKodePos2').val(data.postal_code2);
+                                $('#idEditGender').val(gender);
+                                $('#idEditIRt2').val(data.rt2);
+                                $('#idEditRw2').val(data.rw2);
+                                $('#idEditKelurahan2').val(data.kelurahan2);
+                                $('#idEditKecamatan2').val(data.kecamatan2);
+                                $('#idEditKota2').val(data.region2);
+                                $('#idEditNomorHp1').val(data.phone_number1);
+                                $('#ID').val(data.id);
+                                $('#idAddress').val(data.id_Address);
+
+
+                                var injectTahun;
+                                var injectTahun2;
+                                if ($('#idJenisStatusPernikahan').val() == 2) {
+                                    injectTahun2 = '<option value="-">-</option>';
+                                    $('#idEditTahunPernikahan').html(injectTahun2);
+                                }
+
+                                else {
+                                    var getFullDate = new Date();
+                                    var getYear = getFullDate.getFullYear();
+                                    var getIntYear = parseInt(getYear);
+                                    var JmlTahun = (getIntYear - 2019) + (getIntYear - 1980);
+                                    getIntYear = getIntYear - (getIntYear - 1980);
+                                    injectTahun = '<option value="-">' + data.marriage_year + '</option>';
+                                    //debugger;
+                                    for (var i = 0; i < JmlTahun; i++) {
+                                        injectTahun += '<option value=' + getIntYear + '>' + getIntYear + '</option>';
+                                        getIntYear++;
+                                    }
+                                    debugger;
+                                    $('#idEditTahunPernikahan').html(injectTahun);
+                                }
+                            });
+                        },
+                    });
+
+                    $(".modal-pelamar").modal("hide");
+                    $(".modal-create").modal("show");
+                });
+            }
+        });
+    });
+</script>

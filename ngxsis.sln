@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngxsis.Models", "ngxsis.Models\ngxsis.Models.csproj", "{FB374E3C-5A7E-4229-85F9-34DD7B3EE513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngxsis.Repositories", "ngxsis.Repositories\ngxsis.Repositories.csproj", "{2654AD9F-7B50-4E1E-A61E-5EA2B86E31FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngxsis.ViewModel", "ngxsis.ViewModel\ngxsis.ViewModel.csproj", "{271842DD-E8A2-4BCF-BBC6-D2D7CA27F51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngxsis.Web", "ngxsis.Web\ngxsis.Web.csproj", "{DD2EF8D3-691D-4623-886C-B0F9E9889B89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB374E3C-5A7E-4229-85F9-34DD7B3EE513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB374E3C-5A7E-4229-85F9-34DD7B3EE513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB374E3C-5A7E-4229-85F9-34DD7B3EE513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB374E3C-5A7E-4229-85F9-34DD7B3EE513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2654AD9F-7B50-4E1E-A61E-5EA2B86E31FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2654AD9F-7B50-4E1E-A61E-5EA2B86E31FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2654AD9F-7B50-4E1E-A61E-5EA2B86E31FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2654AD9F-7B50-4E1E-A61E-5EA2B86E31FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271842DD-E8A2-4BCF-BBC6-D2D7CA27F51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271842DD-E8A2-4BCF-BBC6-D2D7CA27F51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271842DD-E8A2-4BCF-BBC6-D2D7CA27F51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271842DD-E8A2-4BCF-BBC6-D2D7CA27F51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2EF8D3-691D-4623-886C-B0F9E9889B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2EF8D3-691D-4623-886C-B0F9E9889B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2EF8D3-691D-4623-886C-B0F9E9889B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2EF8D3-691D-4623-886C-B0F9E9889B89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

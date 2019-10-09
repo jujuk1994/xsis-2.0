@@ -1,0 +1,174 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .formpenjadwalanUndangan {
+        border: 0;
+        background-color: #e2e2e2;
+        color: #000080;
+    }
+
+    .fa {
+        margin-right: 20px;
+    }
+</style>
+
+<div class="navbar-right" style="font-size:20px;margin-top:10px">
+    <a href="#" title="Ordered" style="margin-left:5px"><i class="fa fa-sort sortList" aria-hidden="true"></i></a>
+    <a href="#" title="Row per page" style="margin-left:5px"><i class="fa fa-list" aria-hidden="true"></i></a>
+    <a href="#" title="Tambah data" style="margin-left:5px"><i class="fa fa-plus-circle tambahpenjadwalanUndangan" aria-hidden="true"></i></a>
+</div>
+
+<div class="row" style="margin-bottom:5px;">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px;padding-bottom:0px;">
+        <b style="font-size:29px;margin-left:23px;color:#000080;">Penjadwalan Undangan</b>
+    </div>
+</div>
+
+<hr style="border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #000080;
+    margin-bottom:10px;
+    margin-top:-5px"><br />
+
+<form id="searchBox" action="">
+    <div class="search">
+        <input id="inputSearch" type="text" class="searchTerm form-cari" placeholder="Cari" name="">
+        <button type="submit" id="searchButton" class="searchButton">Cari</button>
+        <button style="margin-left:10px" type="reset" class="searchButton">Reset</button>
+    </div>
+</form>
+
+<form id="tablepenjadwalanUndangan" style="margin-top:40px">
+    <div class="table-responsive" style="background-color:#e2e2e2;padding:10px;padding-top:0">
+        <table class="">
+            <thead>
+
+            </thead>
+            <tbody id="bodyTablepenjadwalanUndangan"></tbody>
+        </table>
+    </div>
+</form>
+
+<table class="table table-striped" id="my-table"></table>
+
+<script>
+    var vFlag = 0;
+    var searchResult = "";
+    var rowPerPage;
+    $(document).ready(function () {
+        rowPerPage = 5;
+
+        $('#searchBox').submit(function () {
+            search();
+            return false;
+        })
+
+        $('.tambahpenjadwalanUndangan').click(function () {
+            $('#myModal').modal("show");
+        });
+
+        $('.sortList').on('click', function () {
+            if (vFlag == 0) {
+                $.ajax({
+                    url: '/penjadwalanUndangan/OrderBy',
+                    method: 'Post',
+                    data: searchResult,
+                    success: function (mdl) {
+                        debugger;
+                        listDatapenjadwalanUndangan(mdl);
+                    }
+                })
+                vFlag = 1;
+
+            } else {
+                $.ajax({
+                    url: '/penjadwalanUndangan/OrderByDesc',
+                    method: 'Post',
+                    data: searchResult,
+                    success: function (mdl) {
+                        listDatapenjadwalanUndangan(mdl);
+                    }
+                })
+                vFlag = 0;
+            }
+        });
+
+        //FUNGSI SEARCH
+        function search() {
+            var data = $('#searchBox').serialize();
+            $.ajax({
+                url: '/penjadwalanUndangan/Search',
+                method: 'Post',
+                data: data,
+                success: function (mdl) {
+                    listDatapenjadwalanUndangan(mdl);
+                    searchResult = data;
+                    debugger;
+                }
+            })
+        }
+
+        //FUNGSI INJECT
+        function listDatapenjadwalanUndangan(mdl) {
+            var inject;
+            $.each(mdl, function (index, data) {
+                if (data.fullname == "KOSONG") {
+                    alert("penjadwalanUndangan '" + $('#inputSearch').val() + "' TIDAK DITEMUKKAN")
+                } else {
+                    inject +=  '<tbody style="margin-top:20px;">'+
+                '{'+
+                '<tr style="font-size:small;">'+
+                    '<td class="text-left" title="Code">'+
+                        '<div style="margin-right:30px;">'+data.invitation_code+'</div>'+
+                    '</td>'+
+                    '<td class="text-left">'+
+                        '<div style="margin-right:30px;">'+data.Fullname+'</div>'+
+                    '</td>'+
+                    '<td class="text-left">'+
+                        '<div>'+data.SchoolName+' / '+data.Major+'</div>'+
+                    '</td>'+
+                    '<td class="text-left">'+
+                        '<div style="margin-right:30px;">'+data.date_string+'</div>'+
+                    '</td>'+
+                    '<td>'+
+                        '<div class="btn-group btn-group-sm">'+
+                            '<button href="#" type="button" class="btn btn-tampilkan btn-warna" data-container="data.id" title="Tampilkan" id="btn-tampilkan">'+
+                                '<span class="glyphicon glyphicon-search" aria-hidden="true"></span>'+
+                                '</button>'+
+                                '<button type="button" class="btn btn-edit btn-warna" data-container="data.id" title="Edit">'+
+                                '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>'+
+                                '</button>'
+                                '<button type="button" class="btn btn-delete btn-warna" data-container="data.id" title="Delete">'+
+                                '<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>'+
+                                '</button>'+
+                                '</div>'+
+                                '</td>'+
+                                '</tr>'+
+                                '}'+
+                '</tbody>'+
+                '</table>'+
+                '<div class="row" style="text-align:right;margin-bottom:15px;margin-right:5px;margin-top:-10px;">'+
+                '<button type="button" class="btn btn-primary btn-sm btn-pill btn-prev" onclick="min()"><b>&#8592; Previous</b></button>'+
+                '<button type="button" class="btn btn-primary btn-sm btn-pill btn-next" onclick="plus()"><b>Next &#8594;</b></button>'+
+            '</div>';
+                }
+            }); //-
+            $('#bodyTablepenjadwalanUndangan').html(inject);
+
+            $('.detailpenjadwalanUndangan').click(function () {
+                $.ajax(
+                    {
+                        url: '/penjadwalanUndangan/DetailpenjadwalanUndangan',
+                        type: 'get',
+                        data: { id: $(this).attr("data-id") },
+                        success: function (result) {
+                            $(".modal-penjadwalanUndangan .modal-title").html("Detail penjadwalanUndangan");
+                            $(".modal-penjadwalanUndangan .modal-body").html(result);
+                            $(".modal-penjadwalanUndangan").modal("show");
+                        }
+                    });
+            });
+        }
+    });
+</script>

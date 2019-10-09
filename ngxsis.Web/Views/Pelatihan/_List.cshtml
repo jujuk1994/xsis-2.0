@@ -1,0 +1,152 @@
+﻿@*<link rel="stylesheet" href="~/content/sertifikasi.css" />*@
+<h1>
+    <font color="#000080">
+        <b>Pelatihan</b>
+    </font>
+    <button type="button" class="btn btn-xs" title="Create New" id="btnAddPelatihan" style="background-color:black; color:white; font-size:9px; border-radius:100%;">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    </button>
+</h1>
+<div class="table table-responsive">
+    <table class="table table-striped" style="border-bottom: 2px solid #000080; color: #000080; ">
+        <thead style="border-bottom: 5px solid #000080; border-top :5px solid #000080;">
+            <tr>
+                <th>
+                    PELATIHAN/WORKSHOP
+                </th>
+                <th>
+                    PENYELENGGARA
+                </th>
+                <th>
+                    WAKTU
+                </th>
+                <th>
+                    DURASI
+                </th>
+                <th>
+                    #
+                </th>
+            </tr>
+        </thead>
+        <tbody id="idBodyTableListPelatihan"></tbody>
+    </table>
+</div>
+<script>
+    $(document).ready(function () {
+        //join ke table skill_level dan join ke table biodata
+        debugger;
+        $.ajax({
+            url: 'Pelatihan/GetAllPelatihan',
+            type: 'Get',
+            success: function (mdl) {
+                var jahit;
+                $.each(mdl, function (index, data) {
+                    jahit += '<tr>' +
+                        '<td>' + data.training_name + '</td>' +
+						'<td>' + data.organizer + '</td>' +
+						'<td>' + data.training_year + '</td>' +
+                        '<td>' + data.training_duration + '  ' + data.time_period_name + '</td>' +
+              '<td>' +
+                  '<div class="dropdown navbar-nav navbar-right">' +
+                      '<button class="img-rounded btn btn-primary" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#000080">' +
+                    'More' +
+                    '<span class="caret"></span>' +
+                    '</button>' +
+                    '<ul class="dropdown-menu">' +
+                    '<li  class="classEditPelatihan" id="idBtnEditPelatihan" style="padding-left:20px;" dataPelatihan = ' + data.id + '>Ubah</li>' +
+                    '<li class="classHapusPelatihan" style="padding-left:20px;" dataPelatihan =' + data.id + '>Hapus</li>' +
+                    '</ul>' +
+                      '</div>' +
+                '</td>' +
+           '</tr>';
+                });
+                $('#idBodyTableListPelatihan').html(jahit);
+            
+
+        $('.classEditPelatihan').click(function () {
+            //debugger;
+            var vDataPelatihan = $(this).attr('dataPelatihan');
+            $.each(mdl, function (index, data) {
+                if (data.id == vDataPelatihan) {
+                    $.ajax({
+                        url: '/Pelatihan/Edit',
+                        method: 'Get',
+                        success: function (mdl2) {
+                            //debugger;
+                            $(".modal-create .modal-title").html("Edit Pelatihan");
+                            $(".modal-create .modal-body").html(mdl2);
+                            $('#idEditTraining').val(data.training_name);
+                            $('#idEditOrganizer').val(data.organizer);
+                            $('#yearBtnAddPelatihan').val(data.training_year);
+                            $('#idEditBulanPelatihan').val(data.training_month);
+                            $('#idEditTrainingDuration').val(data.training_duration);
+                            $('#periodBtnCreatePelatihan').val(data.time_period_id);
+                            $('#idEditCity').val(data.city);
+                            $('#idEditCountry').val(data.country);
+                            $('#idEditNotes').val(data.notes);
+                            $('#idDatanyaPlth').val(data.id);
+                            //var x = vDataPelatihan.training_name;
+                            //debugger;
+                        }
+                    });
+                }
+            })
+
+            $(".modal-pelamar").modal("hide");
+            $(".modal-create").modal("show");
+            //debugger;
+
+        });
+
+        $('.classHapusPelatihan').click(function () {
+            //debugger;
+            var vDataPelatihan = $(this).attr('dataPelatihan');
+            $.each(mdl, function (index, data) {
+                if (data.id == vDataPelatihan) {
+                    $.ajax({
+                        url: '/Pelatihan/Delete',
+                        method: 'Get',
+                        success: function (mdl2) {
+                            //debugger;
+                            $(".modal-delete .modal-title").html("Hapus Pendidikan");
+                            $(".modal-delete .modal-body").html(mdl2);
+                            $('#idDeleteTraining').val(data.training_name);
+                            $('#idDeleteOrganizer').val(data.organizer);
+                            $('#yearBtnAddPelatihan').val(data.training_year);
+                            $('#idDeleteBulanPelatihan').val(data.training_month);
+                            $('#idDeleteTrainingDuration').val(data.training_duration);
+                            $('#periodBtnCreatePelatihan').val(data.time_period_id);
+                            $('#idDeleteCity').val(data.city);
+                            $('#idDeleteCountry').val(data.country);
+                            $('#idDeleteNotes').val(data.notes);
+                            $('#idDatanyaPlth').val(data.id);
+                            //var x = vDataPelatihan.training_name;
+                            //debugger;
+                        }
+                    });
+                }
+            })
+
+            $(".modal-pelamar").modal("hide");
+            $(".modal-delete").modal("show");
+            //debugger;
+
+        });
+
+     }
+  });
+
+        $('#btnAddPelatihan').click(function () {
+            $.ajax({
+                url: '/Pelatihan/Create',
+                type: 'Get',
+                success: function (result) {
+                    $(".modal-create .modal-title").html("Tambah Pelatihan");
+                    $(".modal-create .modal-body").html(result);
+                    $(".modal-pelamar").modal("hide");
+                    $(".modal-create").modal("show");
+                }
+            });
+        });
+    });
+</script>

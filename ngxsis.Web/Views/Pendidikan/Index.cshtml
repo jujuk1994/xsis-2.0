@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div id="idListPendidikan">
+
+</div>
+<!--Modal AddPendidikan-->
+<div class="modal fade modal-create" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background: darkblue">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" style="background: darkblue; color: white">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div id="IdMdlEditPendidikan" class="modal fade " tabindex="-1" role="dialog" style="border: 2px solid #000080; color: #000080;  ">
+    <div class="modal-dialog" role="document" style="width: 900px;">
+        <div class=" modal-content modal-lg">
+            <div class="modal-header" style="background-color: #000080">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span style="color:white" class="glyphicon glyphicon-remove"></span></button>
+                <h4 class="modal-title" style="color: white">Ubah Pendidikan</h4>
+            </div>
+
+            <div id="IdMdlBodyEditPendidikan" class="modal-body">
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--Modal DeletePendidikan-->
+<div id="IdMdlDeletePendidikan" class="modal fade " tabindex="-1" role="dialog" style="border: 2px solid #8B0000; color: #8B0000;  ">
+    <div class="modal-dialog" role="document" style="width: 600px;">
+        <div class=" modal-content modal-lg">
+            <div class="modal-header" style="background-color: #8B0000">
+                <h4 class="modal-title" style="color: white">Hapus Pendidikan ?</h4>
+            </div>
+
+            <div id="IdMdlBodyDeletePendidikan" class="modal-body">
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script>
+    $(document).ready(function () {
+        //debugger;
+        $.ajax({
+            url: '/Pendidikan/ListPendidikan',
+            method: 'Get',
+            success: function (mdl) {
+                //debugger;
+                $('#idListPendidikan').html(mdl);
+            }
+        })
+    });
+</script>
+
+<!-- /.modal-content DELETE -->
+<div class="modal fade modal-delete" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

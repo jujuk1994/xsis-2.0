@@ -1,0 +1,63 @@
+﻿<form id="idFormDeleteCatatan">
+    <dl class="dl-horizontal">
+        <dt>
+            <span class="glyphicon glyphicon-trash" aria-hidden="true" style="font-size:100px; color:Black;margin-left:0px"></span>
+        </dt>
+        <dd>
+            <font style="align-content: center"><font color="red"><font size="4">Anda yakin ingin menghapus Data Catatan <label id="namaCatatan"></label> ?<b></b></font></font></font>
+            <input type="text" id="ID" name="id" hidden/>
+            <input type="text" id="idEditCreatedBy" name="created_by" hidden />
+            <input type="text" id="idEditCreatedOn" name="created_on" hidden />
+            <input type="text" id="idEditBiodataId" name="biodata_id" hidden />
+            <input type="text" id="idIsDelete" name="is_delete" hidden />
+        </dd>
+    </dl>
+
+    <div class="row">
+        <div class="col-md-offset-7">
+            <div class="btn-group">
+                <button type="button" class="btn img-rounded btn-batal" data-dismiss="modal" style="width:105px; height:45px; color:white; background-color:#FF8C00;">Tidak</button>
+                <button type="button" id="idBtnSubmitDelete" class="btn img-rounded " style="width:105px; height:45px; color:white; background-color:#8B0000;">Ya</button>
+            </div>
+        </div>
+    </div>
+
+</form>
+<script>
+    $(document).ready(function () {
+        $('#idBtnSubmitDelete').click(function () {
+            debugger;
+            vDataCatatan = $('#idFormDeleteCatatan').serialize()
+            $.ajax({
+                url: '/Catatan/DeleteCatatan',
+                data: vDataCatatan,
+                method: 'Post',
+                success: function (mdl) {
+                    debugger;
+                    if (mdl.status == "berhasil") {
+                        alert("data berhasil di hapus");
+                        $(".modal-delete").modal("hide");
+                        $(".modal-pelamar").modal("show");
+                    }
+                    else {
+                        alert("data gagal");
+                        $(".modal-delete").modal("hide");
+                        $(".modal-pelamar").modal("show");
+                    }
+                }
+            })
+        });
+        $(".btn-batal").click(function () {
+            $(".modal-delete").modal("hide");
+            $(".modal-pelamar").modal("show");
+        });
+
+        $(".close").click(function () {
+            $(".modal-delete").modal("hide");
+            $(".modal-pelamar").modal("show");
+        });
+    });
+
+
+</script>
+

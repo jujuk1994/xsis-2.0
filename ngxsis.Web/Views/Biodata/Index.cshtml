@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div id="IdListBiodata">
+
+
+</div>
+
+<!--Modal Edit Biodata-->
+<div id="IdMdlEditBiodata" class="modal fade " tabindex="-1" role="dialog" style="border: 2px solid #000080; color: #000080;  ">
+    <div class="modal-dialog" role="document" style="width: 900px;">
+        <div class=" modal-content modal-lg">
+            <div class="modal-header" style="background-color: #000080">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span style="color:white" class="glyphicon glyphicon-remove"></span></button>
+                <h4 class="modal-title" style="color: white">Ubah Biodata</h4>
+            </div>
+            <div id="IdMdlBodyEditBiodata" class="modal-body">
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script>
+            $(document).ready(function () {
+                $.ajax({
+                    url: '/Biodata/ListBiodata',
+                    method: 'Get',
+                    success: function (mdl) {
+                        $('#IdListBiodata').html(mdl);
+                    },
+                });
+            });
+</script>
+
+<div class="modal fade modal-create" tabindex="-1" role="dialog" style="display: none">
+    <div class="modal-dialog" role="document" style="width: 800px">
+        <div class="modal-content" style="width: 800px; color: #000080">
+            <div class="modal-header" style="background: darkblue">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" style="background: darkblue; color: white">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+        </div>
+    </div>
+</div>

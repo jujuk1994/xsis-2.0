@@ -1,0 +1,90 @@
+F:\CECE\miniProject\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+F:\CECE\miniProject\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+F:\CECE\miniProject\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+F:\CECE\miniProject\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+F:\CECE\miniProject\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+D:\MiniProject\MP_arief\miniProject\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll.config
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+D:\Project_Fix\unused\ngxsis\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll.config
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+D:\Project_Fix\ngxsis\ngxsiseka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll.config
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+F:\hh\ngxsisEka28(Ashar)\ngxsisEka(Ashar)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll.config
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+C:\Users\User-XA\Desktop\ngxsisEka\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll.config
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsisEka28(Malam)\ngxsisEka\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll.config
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\bin\Debug\ngxsis.ViewModel.pdb
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.csprojResolveAssemblyReference.cache
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.dll
+D:\Bootcamp Xsis\Project XSIS 2 Sept 2019\ngxsis\ngxsis.ViewModel\obj\Debug\ngxsis.ViewModel.pdb

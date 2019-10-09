@@ -1,0 +1,215 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .formPelamar {
+        border: 0;
+        background-color: #e2e2e2;
+        color: #000080;
+    }
+
+    .fa {
+        margin-right: 20px;
+    }
+</style>
+
+<form id="searchBox" action="">
+    <div class="search">
+        <input id="inputSearch" type="text" class="searchTerm" placeholder="Nama Pelamar" name="search">
+        <button type="submit" id="searchButton" class="searchButton">Cari</button>
+        <button style="margin-left:10px" type="reset" class="searchButton">Reset</button>
+    </div>
+</form>
+
+<div class="navbar-right" style="font-size:20px;margin-top:10px">
+    <a href="#" title="Ordered" style="margin-left:5px"><i class="fa fa-sort sortList" aria-hidden="true"></i></a>
+    <a href="#" title="Row per page" style="margin-left:5px"><i class="fa fa-list" aria-hidden="true"></i></a>
+    <a href="#" title="Tambah data" style="margin-left:5px"><i class="fa fa-plus-circle tambahPelamar" aria-hidden="true"></i></a>
+</div>
+
+<form id="tablePelamar" style="margin-top:40px">
+    <div class="table-responsive" style="background-color:#e2e2e2;padding:10px;padding-top:0">
+        <table class="">
+            <thead>
+
+            </thead>
+            <tbody id="bodyTablePelamar"></tbody>
+        </table>
+    </div>
+</form>
+
+<!-- MODAL CONTENT -->
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body" id="modalBody">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- END MODAL -->
+
+<div class="modal fade modal-pelamar" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title">modal title</h3>
+            </div>
+            <div class="modal-body">
+                <p>one fine body&hellip;</p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade modal-create" tabindex="-1" role="dialog" style="display: none">
+    <div class="modal-dialog" role="document" style="width: 800px">
+        <div class="modal-content" style="width: 800px; color: #000080">
+            <div class="modal-header" style="background: darkblue">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" style="background: darkblue; color: white">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-delete" tabindex="-1" role="dialog" style="display: none">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                @*<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>*@
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var vFlag = 0;
+    var searchResult = "";
+    var rowPerPage;
+    $(document).ready(function () {
+        rowPerPage = 5;
+
+        $('#searchBox').submit(function () {
+            search();
+            return false;
+        })
+
+        $('.tambahPelamar').click(function () {
+            $('#myModal').modal("show");
+        });
+
+        $('.sortList').on('click', function () {
+            if (vFlag == 0) {
+                $.ajax({
+                    url: '/Pelamar/OrderBy',
+                    method: 'Post',
+                    data: searchResult,
+                    success: function (mdl) {
+                        debugger;
+                        listDataPelamar(mdl);
+                    }
+                })
+                vFlag = 1;
+
+            } else {
+                $.ajax({
+                    url: '/Pelamar/OrderByDesc',
+                    method: 'Post',
+                    data: searchResult,
+                    success: function (mdl) {
+                        listDataPelamar(mdl);
+                    }
+                })
+                vFlag = 0;
+            }
+        });
+
+        //FUNGSI SEARCH
+        function search() {
+            var data = $('#searchBox').serialize();
+            $.ajax({
+                url: '/Pelamar/Search',
+                method: 'Post',
+                data: data,
+                success: function (mdl) {
+                    listDataPelamar(mdl);
+                    searchResult = data;
+                    debugger;
+                }
+            })
+        }
+
+        //FUNGSI INJECT
+        function listDataPelamar(mdl) {
+            var inject;
+            $.each(mdl, function (index, data) {
+                if (data.fullname == "KOSONG") {
+                    alert("PELAMAR '" + $('#inputSearch').val() + "' TIDAK DITEMUKKAN")
+                } else {
+                    inject += '<tr>' +
+                        '<td colspan="2"><input id="selectFullName" class="formPelamar pelamarFullname" type="text" name="fullname" value="' + data.fullname + '" readonly/></td>' +
+                        '<td rowspan="5" style="font-size:20px" align="right"><a id="data.id" href="#" title="Detail Pelamar"><i class="fa fa-search detailPelamar" aria-hidden="true"></i></a>' +
+                        '<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>Nama Panggilan</td>' +
+                        '<td>' +
+                        '<input type="hidden" id="idPelamar" name="id" />' +
+                        '<input id="selectNickName" class="formPelamar" type="text" name="nick_name" value="' + data.nick_name + '" readonly/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>Email</td>' +
+                        '<td><input id="selectEmail" class="formPelamar" type="text" name="email" value="' + data.email + '" readonly/></td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>No.Handphone</td>' +
+                        '<td><input id="selectPhoneNumber" class="formPelamar" type="text" name="phone_number1" value="' + data.phone_number1 + '" readonly/></td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>Pendidikan</td>' +
+                        '<td><input id="selectPendidikan" class="formPelamar" type="text" name="pendidikan" value="' + data.pendidikan + '" readonly/></td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td style="background-color:white;height:20px;width:20%"></td>' +
+                        '<td style="background-color:white;height:20px;width:20%"></td>' +
+                        '<td style="background-color:white;height:20px;width:60%"></td>' +
+                        '</tr>';
+                }
+            });
+            $('#bodyTablePelamar').html(inject);
+
+            $('.detailPelamar').click(function () {
+                $.ajax(
+                    {
+                        url: '/Pelamar/DetailPelamar',
+                        type: 'get',
+                        data: { id: $(this).attr("data-id") },
+                        success: function (result) {
+                            $(".modal-pelamar .modal-title").html("Detail Pelamar");
+                            $(".modal-pelamar .modal-body").html(result);
+                            $(".modal-pelamar").modal("show");
+                        }
+                    });
+            });
+        }
+    });
+
+</script>

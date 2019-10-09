@@ -1,0 +1,146 @@
+﻿<form id="idFormCreatePendidikan">
+    <div class="form-horizontal">
+
+        @*@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.biodata_id)*@
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="col-md-12">
+                        <h6 style="margin-bottom:2px;">SEKOLAH/INSTANSI*</h6>
+                        <input required type="text" class="form-control" name="school_name" value="" placeholder="Nama Sekolah / Instansi Pendidikan" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;" /><br />
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="col-md-12">
+                        <h6 style="margin-bottom:2px;">KOTA</h6>
+                        <input type="text" class="form-control" name="city" value="" placeholder="Kota" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;" /><br />
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="col-md-12">
+                        <h6 style="margin-bottom:2px;">NEGARA</h6>
+                        <input type="text" class="form-control" name="country" value="" placeholder="Negara" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;" /><br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="col-md-12">
+                        <h6 style="margin-bottom:2px;">JENJANG PENDIDIKAN*</h6>
+                        <select class="form-control" id="idAddJenjangPendidikan" name="education_level_id" required style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;">
+                            <option value="">- Pilih Jenjang Pendidikan -</option>
+                            <option value="1">SD</option>
+                            <option value="2">SMP</option>
+                            <option value="3">SMA/SMK</option>
+                            <option value="4">D1</option>
+                            <option value="5">D2</option>
+                            <option value="6">D3</option>
+                            <option value="7">S1</option>
+                            <option value="8">S2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="col-md-12">
+                        <h6 style="margin-bottom:2px;">TAHUN MASUK</h6>
+                        <select id="yearBtnEntryPendidikan" class="form-control" name="entry_year" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;"><option>-</option></select>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                        <div class="col-md-12">
+                            <h6 style="margin-bottom:2px;">TAHUN LULUS</h6>
+                            <select id="yearBtnGradPendidikan" class="form-control" name="graduation_year" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;"><option>-</option></select>
+                        </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="col-md-12">
+                        <h6 style="margin-bottom:2px;">JURUSAN</h6>
+                        <input type="text" class="form-control" name="major" value="" placeholder="Jurusan" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;" /><br />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="col-md-12">
+                        <h6 style="margin-bottom:2px;">IPK</h6>
+                        <input type="text" class="form-control" name="gpa" value="" placeholder="IPK" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;" /><br />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h6 style="margin-bottom:2px;">CATATAN</h6>
+                        <input type="text" class="form-control" name="notes" value="" placeholder="Catatan" style="padding-left:10px; border: 2px solid #000080; color: #000080; border-radius:7px; width:100%; max-width:100%; height:40px;" /><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="text" name="modified_by" value=5 hidden />
+        <input type="text" name="modified_on" value=2019-08-08 hidden />
+        <input type="text" name="delete_by" value="5" hidden />
+        <input type="text" name="delete_on" value="2019-08-08" hidden />
+        <input type="text" name="biodata_id" value=1 hidden />
+        <input type="text" name="order" value=1 hidden />
+        <input type="text" name="judul_ta" value="Hello" hidden />
+        <input type="text" name="deskripsi_ta" value="World" hidden />
+
+        <div class="row">
+            <div class="btn-group col-md-offset-9">
+                <input type="button" value="Batal" data-dismiss="modal" class="btn btn-batal" />
+                <input type="submit" value="Simpan" class="btn btn-simpan" />
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    var start = 1995;
+    var end = new Date().getFullYear();
+    var options = '<option value="">- Pilih Tahun -</option>';
+    for (var year = start ; year <= end; year++) {
+        options += "<option>" + year + "</option>";
+    }
+    
+    $('#yearBtnEntryPendidikan').html(options);
+    $('#yearBtnGradPendidikan').html(options);
+
+        $("#idFormCreatePendidikan").submit(function () {
+            var vDataAddPendidikan = $('#idFormCreatePendidikan').serialize();
+            $.ajax({
+                url: '/Pendidikan/SavePendidikan',
+                data: vDataAddPendidikan,
+                success: function (result) {
+                    if (result.success) {
+                        alert("Data Gagal disimpan");
+                        $(".modal-create").modal("hide");
+                        $(".modal-pelamar").modal("show");
+                        //window.location.reload(true);
+                        //GetPendidikan();
+                    }
+                    else {
+                        alert("data Berhasil Disimpan");
+                        $(".modal-create").modal("hide");
+                        $(".modal-pelamar").modal("show");
+                        //window.location.reload(true);
+                        //GetPendidikan();
+                    }
+                }
+            });
+            return false;
+        });
+
+        $(".btn-batal").click(function () {
+            $(".modal-create").modal("hide");
+            $(".modal-pelamar").modal("show");
+        });
+
+        $(".close").click(function () {
+            $(".modal-create").modal("hide");
+            $(".modal-pelamar").modal("show");
+        });
+    //});
+</script>

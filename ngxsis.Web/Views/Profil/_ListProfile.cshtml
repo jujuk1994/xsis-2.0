@@ -1,0 +1,55 @@
+﻿<style>
+    .formPelamar {
+        border: 0;
+        background-color: #e2e2e2;
+        color: #000080;
+    }
+
+    .fa {
+        margin-right: 20px;
+    }
+</style>
+<button type="button" id="idButtonUnduh">unduh</button>
+<form id="idFormProfil" style="margin-top:40px">
+    <table border="1" class="table table-striped" style="border-bottom: 2px solid #000080; color: #000080; ">
+        <thead>
+
+        </thead>
+        <tbody style="border-bottom: 5px solid #000080; border-top :5px solid #000080;">
+
+            <tr>
+
+                <td>
+                    <lable style="font-size:20px">Pendidikan</lable><br />
+                    <input id="TahunPendidikan" type="text" name="TahunPendidikan" border="0" value="2010 - 2015">
+                </td>
+                <td>
+                    <br />
+                    Havard Univercity, United State of America,<br />
+                    Teknik Informatika<br />
+                    3.95
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</form>
+<script>
+    $(document).ready(function () {
+        $('#idButtonUnduh').click(function () {
+
+            //var vProfil = $('#idFormProfil').serialize();
+            debugger;
+            $.ajax({
+                url: '/Profil/UnduhProfil',
+                //data: vProfil,
+                method: 'get',
+                success: function (mdl) {
+                    window.open("/Profil/UnduhProfil" + "?TahunPendidikan=" + $("#TahunPendidikan").val());
+                    //window.location = "/Profil/UnduhProfil" + "?TahunPendidikan=" + $("#TahunPendidikan").val();
+                    //window.open("/Profil/UnduhProfil");
+                }
+            });
+        });
+    })
+</script>
